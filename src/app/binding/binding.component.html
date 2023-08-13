@@ -1,0 +1,15 @@
+<button [disabled]="disabled">submit</button>
+
+<div [style.background-color]="bg">
+  red
+</div>
+
+<div [class.light]="cls">
+  light
+</div>
+
+<p>{{num}}</p>
+<button (click)="onPlus()">Puls</button>
+
+<p>{{text}}</p>
+<input [(ngModel)]="text" />
